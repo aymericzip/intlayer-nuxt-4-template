@@ -1,0 +1,143 @@
+{
+  "internationalization": {
+    "locales": [
+      "en",
+      "fr",
+      "es"
+    ],
+    "requiredLocales": [
+      "en",
+      "fr",
+      "es"
+    ],
+    "strictMode": "inclusive",
+    "defaultLocale": "en"
+  },
+  "routing": {
+    "mode": "prefix-no-default",
+    "storage": [
+      "cookie",
+      "header"
+    ],
+    "basePath": ""
+  },
+  "content": {
+    "fileExtensions": [
+      ".content.ts",
+      ".content.js",
+      ".content.cjs",
+      ".content.cjx",
+      ".content.mjs",
+      ".content.mjx",
+      ".content.json",
+      ".content.tsx",
+      ".content.jsx"
+    ],
+    "baseDir": "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4",
+    "excludedPath": [
+      "**/node_modules/**",
+      "**/dist/**",
+      "**/build/**",
+      "**/.intlayer/**",
+      "**/.next/**",
+      "**/.nuxt/**",
+      "**/.expo/**",
+      "**/.vercel/**",
+      "**/.turbo/**",
+      "**/.tanstack/**"
+    ],
+    "watch": true,
+    "contentDir": [
+      "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4"
+    ],
+    "moduleAugmentationDir": "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4/.intlayer/types",
+    "unmergedDictionariesDir": "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4/.intlayer/unmerged_dictionary",
+    "remoteDictionariesDir": "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4/.intlayer/remote_dictionary",
+    "dictionariesDir": "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4/.intlayer/dictionary",
+    "dynamicDictionariesDir": "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4/.intlayer/dynamic_dictionary",
+    "fetchDictionariesDir": "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4/.intlayer/fetch_dictionary",
+    "typesDir": "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4/.intlayer/types",
+    "mainDir": "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4/.intlayer/main",
+    "configDir": "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4/.intlayer/config",
+    "cacheDir": "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4/.intlayer/cache",
+    "watchedFilesPattern": [
+      "/**/*.content.ts",
+      "/**/*.content.js",
+      "/**/*.content.cjs",
+      "/**/*.content.cjx",
+      "/**/*.content.mjs",
+      "/**/*.content.mjx",
+      "/**/*.content.json",
+      "/**/*.content.tsx",
+      "/**/*.content.jsx"
+    ],
+    "watchedFilesPatternWithPath": [
+      "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4/**/*.content.ts",
+      "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4/**/*.content.js",
+      "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4/**/*.content.cjs",
+      "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4/**/*.content.cjx",
+      "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4/**/*.content.mjs",
+      "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4/**/*.content.mjx",
+      "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4/**/*.content.json",
+      "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4/**/*.content.tsx",
+      "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4/**/*.content.jsx"
+    ],
+    "outputFilesPatternWithPath": "/Users/aymericpineau/Documents/intlayer_example/intlayer-nuxt-4/.intlayer/dictionary/**/*.json"
+  },
+  "editor": {
+    "applicationURL": "",
+    "editorURL": "http://localhost:8000",
+    "cmsURL": "https://intlayer.org",
+    "backendURL": "https://back.intlayer.org",
+    "port": 8000,
+    "enabled": true,
+    "dictionaryPriorityStrategy": "local_first",
+    "liveSync": true,
+    "liveSyncPort": 4000,
+    "liveSyncURL": "http://localhost:4000"
+  },
+  "log": {
+    "mode": "default",
+    "prefix": "\u001b[38;5;239m[intlayer] \u001b[0m"
+  },
+  "ai": {},
+  "build": {
+    "importMode": "static",
+    "traversePattern": [
+      "**/*.{js,ts,mjs,cjs,jsx,tsx,mjx,cjx,vue,svelte,svte}",
+      "!**/node_modules/**"
+    ],
+    "outputFormat": [
+      "cjs",
+      "esm"
+    ],
+    "cache": true
+  },
+  "compiler": {
+    "enabled": true,
+    "transformPattern": [
+      "**/*.{ts,tsx,jsx,js,cjs,mjs,mjx,cjx,svelte,vue}"
+    ],
+    "excludePattern": [
+      "**/node_modules/**",
+      "**/dist/**",
+      "**/.next/**",
+      "**/.nuxt/**",
+      "**/.expo/**",
+      "**/.vercel/**",
+      "**/.turbo/**",
+      "**/.tanstack/**",
+      "**/*.stories.ts",
+      "**/*.test.ts"
+    ],
+    "outputDir": "./compiler"
+  },
+  "dictionary": {
+    "fill": true
+  },
+  "metadata": {
+    "name": "Intlayer",
+    "version": "7.3.11",
+    "doc": "https://intlayer.org/docs"
+  }
+}
