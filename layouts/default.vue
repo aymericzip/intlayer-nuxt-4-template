@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import LocaleSwitcher from "~/components/LocaleSwitcher.vue";
-import Link from "~/components/Links.vue";
+import Links from "~/components/Links.vue";
 </script>
 
 <template>
@@ -12,8 +12,7 @@ import Link from "~/components/Links.vue";
       <slot />
     </main>
 
-    <Links href="/">Home</Links>
-    <Links href="/about">About</Links>
+    <Links to="/">Home</Links>
+    <Links to="/about">About</Links>
   </div>
 </template>
-
