@@ -11,10 +11,10 @@
   },
   "dependencies": {
     "intlayer": "9.0.0-canary.12",
-    "nuxt": "^4.2.1",
-    "vue": "^3.5.25",
+    "nuxt": "^4.4.8",
+    "vue": "^3.5.39",
     "vue-intlayer": "9.0.0-canary.12",
-    "vue-router": "^4.6.3"
+    "vue-router": "^4.6.4"
   },
   "devDependencies": {
     "nuxt-intlayer": "9.0.0-canary.12"
