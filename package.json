@@ -10,13 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "intlayer": "canary",
+    "intlayer": "latest",
     "nuxt": "^4.4.8",
     "vue": "^3.5.39",
-    "vue-intlayer": "canary",
+    "vue-intlayer": "latest",
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
-    "nuxt-intlayer": "canary"
+    "nuxt-intlayer": "latest"
   }
 }
